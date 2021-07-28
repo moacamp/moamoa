@@ -1,0 +1,53 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+#menu li{
+  margin-bottom: 10px;
+}
+#tech_table dt{
+  font-weight: bold;
+  margin: 10px
+}
+#tech_table dd{
+  margin-bottom: 5px;
+}
+.gray_box{
+  list-style: none;
+  margin-right: 50px;
+  background-color: #DDDDDD;
+  border-radius: 20px;
+  padding: 20px;
+}
+.big_text{
+  font-size: 70px;
+}
+#main_title{
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 20px;
+  background-color: gray;
+}
+#main_title a{
+  color: white;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#menu{
+  list-style-type: none;
+  border-right: 1px solid black;
+  width: 100px;
+  padding: 20px;
+  margin: 0;
+  height: 100%;
+}
+#content{
+  padding-left: 20px;
+}
+#content li{
+  margin: 5px;
+}

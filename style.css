@@ -3,7 +3,9 @@ a{
   color: black;
 }
 #menu li{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 #tech_table dt{
   font-weight: bold;
@@ -33,10 +35,7 @@ a{
 #main_title a{
   color: white;
 }
-#grid{
-  display: grid;
-  grid-template-columns: 150px 1fr;
-}
+
 #menu{
   list-style-type: none;
   border-right: 1px solid black;
@@ -50,4 +49,22 @@ a{
 }
 #content li{
   margin: 5px;
+}
+@media screen and (min-width: 500px){
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+}
+@media screen and (max-width: 500px){
+  #menu{
+    background-color: #DDDDDD;
+    border-radius: 20px;
+    border: none;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
 }

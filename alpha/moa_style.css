@@ -1,0 +1,29 @@
+#main_title{
+  font-size: 45px;
+  text-align: right;
+  background-color: #449ADF;
+  padding: 10px;
+  margin: 0;
+}
+#main_title a{
+  text-decoration: none;
+  color: white;
+}
+
+#menu{
+  margin-top: 0;
+  list-style-type: none;
+  background-color: #449ADF;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+#menu li{
+  color: white;
+  font-weight: bold;
+  display: inline;
+  margin-right: 5px;
+}
+#menu a{
+  text-decoration: none;
+  color: white;
+}
